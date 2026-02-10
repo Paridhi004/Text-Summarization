@@ -55,8 +55,8 @@ These weights sum up to 1.0, reflecting their relative importance in the TOPSIS 
 - Compression ratio: 0.20 
 
 ### Step 4: Identify Ideal Best and Ideal Worst
-- Ideal Best: Maximum ROUGE scores, Minimum time and size  
-- Ideal Worst: Minimum ROUGE scores, Maximum time and size  
+- Ideal Best: For benefit criteria, we take the maximum value across all models. For cost criteria, we take the minimum value. 
+- Ideal Worst: For benefit criteria, we take the minimum value across all models. For cost criteria, we take the maximum value.
 
 ### Step 5: Compute TOPSIS Scores
 Distances from ideal best and worst solutions were calculated and TOPSIS score was computed.
@@ -67,15 +67,8 @@ Models were ranked based on TOPSIS score.
 ---
 
 ## Results
-
-A final ranking table was generated:
-
-- The model with the highest TOPSIS score is selected as the best summarization model.
-
----
-
-## Result Graph
-A bar chart was plotted to visualize the TOPSIS scores of all models.
+<img width="1473" height="731" alt="image" src="https://github.com/user-attachments/assets/3ef7b6fc-41de-4d3a-8e63-34daa857c60a" />
+<img width="1474" height="881" alt="image" src="https://github.com/user-attachments/assets/6d518a80-dbaf-4f9f-9230-29f3c3a3accb" />
 
 ---
 
